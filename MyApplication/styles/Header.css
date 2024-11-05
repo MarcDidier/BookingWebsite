@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    padding: 0 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+img{
+	height: 35px;
+	margin-left: 0.3%;
+	margin-top: 0.7%;	
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-top{
+    background-color: #666;
+    height: 45px;
+    cursor: pointer;
+}
+
+.button-log{
+    right: 20px;
+    position: absolute;
+    top: 1px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 0, 0, 0.574);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    margin: 4px;
+    padding: 8px 9px;
+}
+
+.button-log:hover{
+    background: green;
+}
+
+.button-sign{
+    right: 10%;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    margin: 4px;
+    padding: 8px 9px;
+    text-transform: none;
+}
+
+.button-sign:hover{
+    background-color: rgb(121, 121, 186);
+}
+
+.nav-second{
+    background-color: white;
+    height: 70px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.3);
+}
+
+.logo{
+    
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(16, 86, 14);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo span{
+    color: blue;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: green;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+

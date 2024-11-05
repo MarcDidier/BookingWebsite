@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/Header.css">
+    <link rel="stylesheet" href="../styles/Login_Register.css">
+    <link rel="stylesheet" href="../styles/Footer.css">
+</head>
+</head>
+<body>
+    <nav class="nav-top flex">
+        <div class="left flex">
+           <img src="../images/logo.png" alt="">
+           <a href="Login.html" class="button-log"><i class="fa fa-user"> Login</i></a>
+           <a href="Register.html" class="button-sign"><i class="fa fa-user-plus"> s'inscrire</i></a>
+        </div>   
+    </nav>
+
+    <nav class="nav-second flex">
+        <div class="logo">
+            <h1>ReservationBus<span>.</span></h1>
+        </div>
+        <ul class="flex">
+            <li><a href="../Homepage.html">Home</a></li>
+            <li><a href="">About Us </a></li>
+            <li><a href="">Contact US</a></li>
+            <li><a href="">faq</a></li>
+        </ul>
+    </nav>
+
+<section class="login">
+    <div class="container">
+    	<div class="header">
+        	<h2>CONNEXION</h2>
+    	</div>
+    	<form method="" action="">
+        	<div>
+            	<label for="username">Nom utilisateur :</label>
+            	<input type="text" id="username" placeholder="entrer nom utilisateur ou adresse mail" required>
+        	</div>
+        	<div>
+            	<label for="password">Mot de passe :</label>
+            	<input type="password" id="password" placeholder="entrer mot de passe" required minlength="5" maxlength="10">
+        	</div>
+        	<div class="remember">
+            	<input type="checkbox" id="rememberMe">
+            	<label for="rememberMe">Remember me</label>
+        	</div>
+        	<div class="forgot">
+            	<a href="#">Mot de passe oublié?</a>
+        	</div>
+        	<button type="submit">LOGIN</button>
+        	<a href="Register.html">Créer un nouveau compte</a>
+    	</form>
+    </div>
+</section>
+
+    <footer>
+        <div class="footercontain">
+            <p>&copy; 2024 Application de reservation de ticket bus</p>
+            <a href="#">À propos</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+            <a href="#">About us</a>
+            <ul class="social-media">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
